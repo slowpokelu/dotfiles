@@ -102,11 +102,13 @@ source $ZSH/oh-my-zsh.sh
 
 alias 'cd..'='cd ..'
 alias l=ls
+alias ll='ls -la'
 
 # neofetch
 # emacs -nw
 export PATH=$HOME/.emacs.d/bin/:$PATH
 setxkbmap -layout us -option ctrl:nocaps
+# setxkbmap us -variant colemak_dh -option ctrl:nocaps
 
 # Only for HiDPI
 # export GDK_SCALE=2
