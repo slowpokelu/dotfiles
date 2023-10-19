@@ -45,6 +45,8 @@
         [
             {
                 "colorScheme": "Campbell",
+                "cursorShape": "bar",
+                "experimental.retroTerminalEffect": false,
                 "font": 
                 {
                     "face": "Fira Code"
@@ -52,7 +54,9 @@
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
+                "opacity": 60,
+                "source": "Windows.Terminal.PowershellCore",
+                "useAcrylic": true
             },
             {
                 "colorScheme": "Campbell",
@@ -87,6 +91,25 @@
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
+            },
+            {
+                "colorScheme": "Vintage",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "cursorShape": "filledBox",
+                "experimental.retroTerminalEffect": true,
+                "font": 
+                {
+                    "face": "Cascadia Mono"
+                },
+                "guid": "{0689b040-e17b-4d94-b176-d917b7853059}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "Terminal",
+                "opacity": 60,
+                "scrollbarState": "hidden",
+                "startingDirectory": "%USERPROFILE%",
+                "tabTitle": "Terminal",
+                "useAcrylic": true
             }
         ]
     },
